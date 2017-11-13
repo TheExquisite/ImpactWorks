@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+.title{
+    padding-top: 30vh;
+    font-family: Quicksand, Verdana;
+    font-weight: bold;
+    font-size: 100px;
+    color: #A74B00;
+
+}
+
+.learnMore{
+    padding-top: 30vh;
+}
+
+.lineSpacer{
+    height: 3px;
+    width: 60vw;
+    background-color: #A74B00;
+
+}
+
+.socialLinks{
+    padding-top: 10px;
+}
