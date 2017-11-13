@@ -1,5 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+.title{
+    padding-top: 30vh;
+    font-family: Quicksand, Verdana;
+    font-weight: bold;
+    font-size: 100px;
+    color: #ffff;
+    text-shadow: 0px 3px 4px #505050
+}
+
+.blurbWrapper{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  color: #ffff;
+  width: 60vw;
+  text-align: left;
+  font-family:  Quicksand, Verdana;
+}
+
+.blurb{
+  margin: auto;
+  width: 60vw;
+  height: 30vh;
+  font-family: Quicksand, Verdana;
+  color: #FFFF;
+}
+
+.learnMoreWrapper{
+  padding-top: 10px;
+  padding-bottom: 15px;
+  width: 60vw;
+  text-align: center;
+}
+
+.learnMoreButton{
+  margin: auto;
+  font-family: Quicksand, Verdana;
+  color: #FFFF;
+}
+
+.lineSpacer{
+    height: 3px;
+    width: 60vw;
+    background-color: #ffff;
+    box-shadow: 0px 3px 4px #505050;
+
+}
+
+.socialLinks{
+    padding-top: 10px;
+}
 .video-background {
-/*  making the video fullscreen  */
   position: fixed;
   right: 0; 
   bottom: 0;
@@ -27,5 +78,7 @@
 .iconWrapper{
   style: inline-block;
   padding:10px;
+  width: 60vw;
+  text-align: center;
 }
 
