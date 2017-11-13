@@ -1,0 +1,31 @@
+.video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: 100vw; 
+  z-index: -100;
+}
+
+.iconButton{
+  width: 60px;
+  height: 60px;
+}
+
+.iconPadding{
+  padding: 10px;
+}
+
+.icon{
+  padding-top: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.iconWrapper{
+  style: inline-block;
+  padding:10px;
+}
+
