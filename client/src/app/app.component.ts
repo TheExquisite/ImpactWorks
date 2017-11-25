@@ -8,5 +8,4 @@ import { MdButtonModule, MdCardModule } from '@angular/material';
 })
 export class AppComponent {
   title = 'app works!';
-
 }
