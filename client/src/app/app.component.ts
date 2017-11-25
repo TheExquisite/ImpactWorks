@@ -6,6 +6,9 @@ import { MdButtonModule, MdCardModule } from '@angular/material';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'app works!';
+export class AppComponent{
+  constructor(){
+    console.log("Website Author: James Clare");
+    console.log("Iteration: 1.5.0");
+  }
 }
