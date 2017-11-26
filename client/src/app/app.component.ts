@@ -9,6 +9,6 @@ import { MdButtonModule, MdCardModule } from '@angular/material';
 export class AppComponent{
   constructor(){
     console.log("Website Author: James Clare");
-    console.log("Iteration: 1.5.0");
+    console.log("Iteration: 0.2.11");
   }
 }

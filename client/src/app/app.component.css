@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand|ABeeZee');
-body{
+html, body {
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  right: 0px;
   overflow: hidden;
-  margin: 0px;
-  position: fixed;
 }
 
 .title{
-  padding-top: 25vh;
+  padding-top: 18vh;
   font-family: Quicksand, Verdana;
   font-weight: bold;
   font-size: 4vw;
@@ -40,7 +42,7 @@ body{
   width: 60vw;
   height: auto;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .learnMoreButton{
@@ -49,7 +51,18 @@ body{
   color: black;
   background-color: white;
   font-size: 3vh;
-  height: 6.1vh;
+  vertical-align: middle;
+  padding: 10px;
+}
+.learnMoreButton:hover{
+  margin: auto;
+  font-family: Quicksand, Verdana;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgb(56, 56, 56);
+  font-size: 3vh;
+  vertical-align: middle;
+  padding: 10px;
 }
 
 .lineSpacer{
@@ -93,6 +106,7 @@ body{
   style: inline-block;
   padding-top: 10px;
   width: 60vw;
+  height: 20vh;
   text-align: center;
 }
 
@@ -102,10 +116,10 @@ body{
     padding-top: 0px;
     font-family: Quicksand, Verdana;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 5vh;
     color: #ffff;
     text-shadow: 0px 3px 4px #505050;
-    padding-bottom: 15px;
+    padding-bottom: 1vh;
     text-align: center;
   }
 
@@ -116,29 +130,33 @@ body{
     width: 98vw;
     text-align: center;
     font-family:  Quicksand, Verdana;
-  }
-
-  .blurb{
-    margin: auto;
-    width: 100vw;
-    height: auto;
-    font-family: Quicksand, Verdana;
-    color: #FFFF;
-  }
-
-  .learnMoreWrapper{
-    padding-top: 10px;
-    padding-bottom: 15px;
-    width: 100vw;
-    text-align: center;
+    font-size: 2vh;
   }
 
   .learnMoreButton{
+    margin: auto;
     font-family: Quicksand, Verdana;
-    color: #FFFF;
     color: black;
     background-color: white;
-    height: 6.1vh;
+    font-size: 3vh;
+    vertical-align: middle;
+    padding: 0.5vh;
+  }
+  .learnMoreButton:hover{
+    margin: auto;
+    font-family: Quicksand, Verdana;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 56, 56);
+    font-size: 3vh;
+    vertical-align: middle;
+    padding: 0.5vh;
+  }
+
+  .learnMoreWrapper{
+    padding: 0.5vh;
+    width: 100vw;
+    text-align: center;
   }
 
   .lineSpacer{
